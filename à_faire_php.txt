@@ -1,0 +1,12 @@
+Afficher le pseudo
+
+
+LES ONGLETS IMPORTANTS
+
+Les parties (affiche TOUTES les parties)
+Mes parties (affiche MES parties)
+
+Changer de mot de passse
+(si admin) onglet admin (créer compte)
+
+Afficher la liste des parties (à changer en fonction de la bonne sélection précédente)
