@@ -1,0 +1,129 @@
+/* blanc cassé #ffe6a7
+marron clair #99582a
+marron foncé #432818
+beige #bb9457
+rouge bordeaux #6f1d1b */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #311d0f;
+    color: #6f1d1b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game {
+    background-color: #ffe6a7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-gap: 5px;
+    position: relative;
+    margin-left: 8%;
+}
+
+.plateau,
+.cell,
+.piece {
+    position: absolute;
+}
+
+.plateau {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.cell,
+.piece {
+    z-index: 2;
+}
+
+.piece:hover {
+    transform: scale(1.1); /* Makes the piece slightly larger */
+    cursor: pointer; /* Changes the cursor to a hand pointer */
+}
+
+#reserve {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reserve-j1, #reserve-j2 {
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #311d0f;
+    color: #ffe6a7;
+    background-color: #6f1d1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+    margin-bottom:1%;
+}
+
+#boutons-directions, #boutons-jeu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #6f1d1b;
+    color: #ffe6a7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    color: #6f1d1b;
+    background-color: #bb9457;
+}
+
+#game-and-infos-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#infos {
+    background-color: #ffe6a7;
+    padding: 15px;
+    border-color: #311d0f;
+    border-radius: 10px;
+    margin-left: 20px;
+    max-height: 110px;
+}
+
+#toLobby {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8%;
+    background-color: #6f1d1b;
+    color: #ffe6a7;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#toLobby:hover {
+    color: #6f1d1b;
+    background-color: #fcf7ea;
+}

@@ -1,0 +1,61 @@
+/* blanc cassé #ffe6a7
+marron clair #99582a
+marron foncé #432818  (body)
+beige #bb9457
+rouge bordeaux #6f1d1b */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #311d0f;
+    color: #6f1d1b;
+}
+
+.login {
+    background-color: #ffe6a7;
+    width: 300px;
+    padding: 20px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.login input {
+    background-color: #6f1d1b;
+    color: #ffe6a7;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+    width:80%;
+}
+
+input[type="text"], input[type="password"] {
+    background-color: #6f1d1b;
+    color: #ffe6a7;
+    text-align: left;
+    border: 2px solid #bb9457;
+}
+
+input[type="password"]::placeholder, input[type="text"]::placeholder {
+    color : #ffe6a7;
+}
+
+.form-connexion {
+    margin-top: 5%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fcf7ea;
+    color: #4b100f;
+}

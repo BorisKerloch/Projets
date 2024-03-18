@@ -1,0 +1,105 @@
+/* blanc cassé #ffe6a7
+marron clair #99582a
+marron foncé #432818  (body)
+beige #bb9457
+rouge bordeaux #6f1d1b */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+    padding: 0;
+    height: 100%;
+    background-color: #311d0f;
+    color: #6f1d1b;
+}
+
+.haut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    height: 35%;
+}
+
+.container,
+.lesParties {
+    display: flex;
+    height: 100%;
+}
+
+.menu,
+.infoJoueur {
+    height: 40%;
+    width: 50%;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+input {
+    width: 50%;
+    background-color: #6f1d1b;
+    color: #ffe6a7;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 25%;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input:hover {
+    color: #6f1d1b;
+    background-color: #ffe6a7;
+}
+
+
+span {
+    display: inline-block;
+    color: #ffe6a7;
+    background-color: #6f1d1b;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+    width: fit-content;
+}
+
+.lesParties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partie {
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #6f1d1b;
+    background-color: #ffe6a7;
+    border-radius: 10px;
+}
+
+.partie p {
+    margin: 0;
+    font-size: 16px;
+    color: #432818;
+}
+
+.partie form {
+    margin-top: 10px;
+}
+
+.partie input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #6f1d1b;
+    color: #ffe6a7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.partie input[type="submit"]:hover {
+    background-color: #fcf7ea;
+    color: #4b100f;
+}
+
