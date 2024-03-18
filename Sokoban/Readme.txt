@@ -1,0 +1,1 @@
+Les fichiers .jar ne se lancent malencontreusement pas lorsqu'ils ne se trouvent pas hors du répertoire Sokoban. Mais une fois lancé lorsqu'ils se trouvent dans le répertoire Sokoban, il n'y a plus de soucis. Désolé de la gêne occasionnée et merci pour votre compréhension.
